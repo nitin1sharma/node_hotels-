@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const Person = require('./../models/person');
+//const Person = require('./../models/Person');
+const Person = require('../models/Person');  // Ensure the relative path is correct
+
 
 
 // POST route to create a new Person
